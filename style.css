@@ -82,6 +82,7 @@ img {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .row {
@@ -132,7 +133,13 @@ img {
     margin-bottom: 100px;
     width: 100%;
   }
-}
+
+
+ .footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+  }
 
 @media (max-width: 768px) {
   .nav ul li {
